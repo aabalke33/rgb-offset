@@ -17,7 +17,7 @@ Input Methods are overloaded. Allowing for method calls with channel values and 
 BufferedImage image = rgbOffset.offset(image, xOffset, yOffset);
 
 // With Channel Values
-BufferedImage image = BlendMode.screen(image, xOffset, yOffset, rxOffset, ryOffset, gxOffset, gyOffset, bxOffset, byOffset);
+BufferedImage image = rgbOffset.offset(image, xOffset, yOffset, rxOffset, ryOffset, gxOffset, gyOffset, bxOffset, byOffset);
 ```
 ## Important Considerations
 1. Position offset values are measured in pixels
