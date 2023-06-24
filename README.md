@@ -53,3 +53,6 @@ public class Example {
 
 - Provide measurements other than pixels, perhaps a percentage of the total image size
 - Support 16bit and 24bit images
+
+## Misc Notes for Nerds
+- Original version that was not posted used ArrayLists to store color channel data. It was not faster than this implementation and used 3.3x the physical memory. Using BufferedImages is WAY better.
