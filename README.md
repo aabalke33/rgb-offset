@@ -8,6 +8,10 @@ No Offset                  |  Offset X= 256, Y= -128   |  Offset RGB channels   
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 ![0](https://github.com/aabalke33/rgb-offset/assets/22086435/33fdf9f7-05b6-4b47-82f5-aec24283d8fc)  |  ![256-128](https://github.com/aabalke33/rgb-offset/assets/22086435/0f2dd0fb-8ea8-4cb8-afca-84964ee054ea)  |  ![03264-32](https://github.com/aabalke33/rgb-offset/assets/22086435/cb5126ff-cddd-4186-bb93-acca6fa03417)  |  ![03200](https://github.com/aabalke33/rgb-offset/assets/22086435/12ef6739-0517-4b19-a653-b6545fe9c231)
 
+## Youtube Video Breakdown
+
+[<img src="https://user-images.githubusercontent.com/22086435/249031602-b948fd54-2d60-4e28-864c-485732ffdeb1.jpg" width="50%">](https://www.youtube.com/watch?v=fP4gSrhVJ30)
+
 ## Usage
 The offset methods take image data expressed as a BufferedImage. An example is provided below for a standard method of creating and inputting BufferedImage parameters.
 
