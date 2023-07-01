@@ -12,6 +12,21 @@ No Offset                  |  Offset X= 256, Y= -128   |  Offset RGB channels   
 
 [<img src="https://user-images.githubusercontent.com/22086435/249031602-b948fd54-2d60-4e28-864c-485732ffdeb1.jpg" width="50%">](https://www.youtube.com/watch?v=fP4gSrhVJ30)
 
+## Docker Image
+The docker image is available [here](https://hub.docker.com/r/aabalke33/java-rgboffset).
+
+```
+docker pull aabalke33/java-rgboffset
+```
+
+Requires "-it" and "-v" flags to make it interactable and to mount a host directory to be accessible to the container.
+
+```
+docker run -it -v C:\Users\User\Desktop:/tmp/files <image>
+# Makes Desktop files accessible to container inside /tmp/files directory.
+```
+
+
 ## Usage
 The offset methods take image data expressed as a BufferedImage. An example is provided below for a standard method of creating and inputting BufferedImage parameters.
 
